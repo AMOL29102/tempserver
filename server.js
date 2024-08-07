@@ -6,8 +6,8 @@ const port = 9000;
 
 
 app.use("/",(req,res)=>{
-    res.json({message : "Hello server!!" })
-})
-app.listen(9000,()=>{
+    res.json({message: "Hello server!!" });
+});
+app.listen(9000, () => {
     console.log(`Starting the server at : ${port}`);
 });
