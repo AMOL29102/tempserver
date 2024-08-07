@@ -5,7 +5,7 @@ const app = express();
 const port = 9000;
 
 
-app.use("/",(res,req)=>{
+app.use("/",(req,res)=>{
     res.json({message : "Hello server!!" })
 })
 app.listen(9000,()=>{
